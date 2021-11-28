@@ -1,0 +1,148 @@
+{
+    "$schema": "https://raw.githubusercontent.com/RedditNobility/Titles/master/schema.json",
+    "$id": "https://raw.githubusercontent.com/RedditNobility/Titles/master/schema.json",
+    "titles": [
+        {
+            "value": "viking",
+            "properName": "Viking",
+            "description": "Vikings are granted Noble status by fact they contain 'King' inside their name. we grant them passage into are communal kingdom"
+        },
+        {
+            "value": "king",
+            "properName": "King",
+            "possibleTitles": [
+                "viking"
+            ]
+        },
+        {
+            "value": "queen",
+            "properName": "Queen"
+        },
+        {
+            "value": "lord",
+            "properName": "Lord"
+        },
+        {
+            "value": "lady",
+            "properName": "Lady"
+        },
+        {
+            "value": "prince",
+            "properName": "Prince",
+            "possibleTitles": [
+                "princess"
+            ]
+        },
+        {
+            "value": "princess",
+            "properName": "princess"
+        },
+        {
+            "value": "count",
+            "properName": "Count",
+            "possibleTitles": [
+                "countess"
+            ]
+        },
+        {
+            "value": "countess",
+            "properName": "Countess"
+        },
+        {
+            "value": "emperor",
+            "properName": "Emperor"
+        },
+        {
+            "value": "empress",
+            "properName": "Empress"
+        },
+        {
+            "value": "monarch",
+            "properName": "Monarch"
+        },
+        {
+            "value": "duke",
+            "properName": "Duke"
+        },
+        {
+            "value": "duchess",
+            "properName": "Duchess"
+        },
+        {
+            "value": "pharoh",
+            "properName": "Pharoh"
+        },
+        {
+            "value": "baron",
+            "properName": "Baron",
+            "possibleTitles": [
+                "baroness"
+            ]
+        },
+        {
+            "value": "baroness",
+            "properName": "Baroness"
+        },
+        {
+            "value": "sultan",
+            "properName": "Sultan",
+            "possibleTitles": [
+                "sultana"
+            ]
+        },
+        {
+            "value": "sultana",
+            "properName": "Sultana"
+        },
+        {
+            "value": "tsar",
+            "properName": "Tsar",
+            "possibleTitles": [
+                "tsarina"
+            ]
+        },
+        {
+            "value": "tsarina",
+            "properName": "Tsarina"
+        },
+        {
+            "value": "czar",
+            "properName": "Czar",
+            "possibleTitles": [
+                "czarina"
+            ]
+        },
+        {
+            "value": "czarina",
+            "properName": "Czarina"
+        },
+        {
+            "value": "jarl",
+            "properName": "Jarl"
+        },
+        {
+            "value": "caesar",
+            "properName": "Caesar"
+        },
+        {
+            "value": "marquis",
+            "properName": "Marquis"
+        },
+        {
+            "value": "marquess",
+            "properName": "Marquess"
+        },
+        {
+            "value": "maharaja",
+            "properName": "Maharaja"
+        },
+        {
+            "value": "maharani",
+            "properName": "Maharani"
+        },
+        {
+            "value": "kaiser",
+            "properName": "Kaiser"
+        }
+    ]
+}

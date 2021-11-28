@@ -1,6 +1,6 @@
 {
-    "$schema": "https://raw.githubusercontent.com/RedditNobility/Titles/master/schema.json",
-    "$id": "https://raw.githubusercontent.com/RedditNobility/Titles/master/schema.json",
+    "$schema": "https://raw.githubusercontent.com/RedditNobility/Titles/master/titles.schema.json",
+    "$id": "https://raw.githubusercontent.com/RedditNobility/Titles/master/titles.schema.json",
     "titles": [
         {
             "value": "viking",

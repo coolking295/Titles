@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Titles",
+    "definitions": {
+        "Titles": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "titles": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Title"
+                    }
+                }
+            },
+            "required": [
+                "titles"
+            ],
+            "title": "Title"
+        },
+        "Title": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "value": {
+                    "type": "string"
+                },
+                "properName": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "possibleTitles": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            },
+            "required": [
+                "properName",
+                "value"
+            ],
+            "title": "Title"
+        }
+    }
+}

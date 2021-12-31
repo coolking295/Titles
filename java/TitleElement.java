@@ -3,10 +3,19 @@ package io.quicktype;
 import com.fasterxml.jackson.annotation.*;
 
 public class TitleElement {
+    private String color;
     private String description;
     private String[] possibleTitles;
     private String properName;
     private String value;
+
+    /**
+     * The RGB HTML Color
+     */
+    @JsonProperty("color")
+    public String getColor() { return color; }
+    @JsonProperty("color")
+    public void setColor(String value) { this.color = value; }
 
     @JsonProperty("description")
     public String getDescription() { return description; }

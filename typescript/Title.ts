@@ -12,6 +12,10 @@ export interface Title {
 }
 
 export interface TitleElement {
+    /**
+     * The RGB HTML Color
+     */
+    color?:          string;
     description?:    string;
     possibleTitles?: string[];
     properName:      string;
@@ -167,6 +171,7 @@ const typeMap: any = {
         { json: "titles", js: "titles", typ: a(r("TitleElement")) },
     ], false),
     "TitleElement": o([
+        { json: "color", js: "color", typ: u(undefined, "") },
         { json: "description", js: "description", typ: u(undefined, "") },
         { json: "possibleTitles", js: "possibleTitles", typ: u(undefined, a("")) },
         { json: "properName", js: "properName", typ: "" },

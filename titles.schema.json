@@ -31,6 +31,11 @@
                 "description": {
                     "type": "string"
                 },
+                "color": {
+                    "type": "string",
+                    "description": "The RGB HTML Color",
+                    "default": "808080"
+                },
                 "possibleTitles": {
                     "type": "array",
                     "items": {

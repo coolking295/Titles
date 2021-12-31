@@ -21,6 +21,10 @@ pub struct Title {
 
 #[derive(Serialize, Deserialize)]
 pub struct TitleElement {
+    /// The RGB HTML Color
+    #[serde(rename = "color")]
+    color: Option<String>,
+
     #[serde(rename = "description")]
     description: Option<String>,
 

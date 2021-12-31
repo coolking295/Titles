@@ -10,6 +10,7 @@
         {
             "value": "king",
             "properName": "King",
+            "color": "b58900",
             "possibleTitles": [
                 "viking"
             ],
@@ -18,21 +19,25 @@
         {
             "value": "queen",
             "properName": "Queen",
+            "color": "268bd2",
             "description": " They say life is a game of chess, and if that's true, you're the most powerful piece! Your Kingdom follows your words like scripture and will war a thousand nations in your name if you asked. God save the Queen (you)!"
         },
         {
             "value": "lord",
             "properName": "Lord",
+            "color": "000dff",
             "description": "Not gonna call you God, but you do share a title! Common as a title, yet every lord is distinct in their own right. Whether you be the Lord of Kittens or Lord of the Apocalypse, welcome aboard!"
         },
         {
             "value": "lady",
             "properName": "Lady",
+            "color": "ce3416",
             "description": "People often bemoan unladylike behavior, but you don't ever have to worry about it, since everything you do--whether it be giving a curtsey or just straight up killing a guy in an alley-- is ladylike by definition. Fun!"
         },
         {
             "value": "prince",
             "properName": "Prince",
+            "color": "3adbd6",
             "possibleTitles": [
                 "princess"
             ],
@@ -41,6 +46,7 @@
         {
             "value": "princess",
             "properName": "princess",
+            "color": "fc7bcf",
             "description": "Whether in line to become Queen or are just very special to your dad, congrats! You're a Princess! Loved or feared by your people, doesn't matter, you're free to get away with whatever. Who's gonna say no to the Princess?"
         },
         {
